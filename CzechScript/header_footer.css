@@ -1,0 +1,78 @@
+footer {
+  background: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 0;
+}
+footer .footer-wraper {
+  min-width: 1000px;
+}
+footer .footer-wraper .footer-top {
+  position: relative;
+  width: 100%;
+  min-height: 5vh;
+}
+footer .footer-wraper .footer-top .footer-left {
+  position: relative;
+  width: 45%;
+  background: #212121;
+  text-align: center;
+  padding: 10px;
+  color: #eeeeee;
+}
+footer .footer-wraper .footer-top .footer-left h2 {
+  margin-bottom: 5px;
+}
+footer .footer-wraper .footer-top .footer-left p {
+  font-size: 14px;
+}
+footer .footer-wraper .footer-top .footer-right {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 45%;
+  background: #212121;
+  text-align: center;
+  padding: 10px;
+  color: #eeeeee;
+}
+footer .footer-wraper .footer-top .footer-right .links {
+  position: relative;
+  width: 100%;
+}
+footer .footer-wraper .footer-top .footer-right .links a {
+  text-decoration: none;
+  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+footer .footer-wraper .footer-top .footer-right .links a i {
+  margin-right: 10px;
+}
+footer .footer-wraper .footer-top .footer-right h2 {
+  font-size: 21px;
+  margin: 5px 0;
+}
+footer .footer-wraper .footer-mid {
+  width: 100%;
+  height: 2px;
+  background: #eeeeee;
+}
+footer .footer-wraper .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-wraper .footer-bottom p {
+  padding: 10px;
+  color: #eeeeee;
+  font-size: 14px;
+}
+@media (max-width: 100px) {
+  .footer-wraper {
+    max-width: 200px;
+  }
+}

@@ -1,0 +1,265 @@
+body {
+  background: url(images/Pozadí2.png) no-repeat;
+  background-color: #ffd2c2;
+}
+.course_wraper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+.course_wraper .course_html {
+  position: relative;
+  color: #212121;
+  padding: 0px 15px;
+  width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.course_wraper .course_html h2 {
+  font-size: 32px;
+  margin-top: 20px;
+  padding: 10px 10px;
+}
+.course_wraper .course_html .first_text {
+  margin-top: 20px;
+  padding: 0px 2px;
+}
+.course_wraper .course_html .second_text {
+  margin-top: 20px;
+  padding: 0px 2px;
+}
+.course_wraper .course_html .second_code_example,
+.course_wraper .course_html .first_code_example {
+  position: relative;
+  background: #212121;
+  color: #fff;
+  padding: 20px;
+  line-height: 21px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.course_wraper .course_html .second_code_example span {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  background: #f8524f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.course_wraper .course_html .third_text {
+  margin-top: 20px;
+  padding: 0px 2px;
+}
+.course_wraper .course_html .code_important {
+  position: relative;
+  background: #f6918e;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.course_wraper .course_html .code_important i {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.course_wraper .course_html .code_important p {
+  position: relative;
+  left: 10%;
+  max-width: 460px;
+}
+.course_wraper .course_html .quiz_submit {
+  position: relative;
+  right: -75%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  border-radius: 20px;
+  background: #212121;
+  color: #fff;
+  padding: 10px 24px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border: none;
+}
+.course_wraper .course_html .quiz_submit:hover {
+  background: #f8524f;
+  color: #212121;
+}
+.course_wraper .course_html .radio_wraper {
+  position: relative;
+  padding: 20px 10px;
+  border: 2px solid #212121;
+  border-radius: 5px;
+  margin: 10px 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.33);
+  cursor: pointer;
+}
+.course_wraper .course_html .quiz_submit {
+  margin: 20px 0;
+  position: relative;
+  right: -420px;
+  font-size: 18px;
+  border-radius: 20px;
+  background: #212121;
+  color: #fff;
+  padding: 10px 24px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border: none;
+  cursor: auto;
+}
+.course_wraper .course_html .quiz_submit:hover {
+  background: #f8524f;
+  color: #212121;
+}
+.course_wraper .course_html .quiz_submit:disabled {
+  opacity: 0.5;
+}
+.course_wraper .course_html .quiz_submit:disabled:hover {
+  background: #212121;
+  color: #fff;
+}
+.course_wraper .course_html .radio_checked {
+  background: #f8524f55;
+  box-shadow: 3px 3px 3px #f8524f55;
+  border: 2px solid #f8524f;
+}
+.course_wraper .course_html .radio_wraper input {
+  visibility: hidden;
+  opacity: 0;
+}
+.course_wraper .course_html .radio_wraper label {
+  pointer-events: none;
+}
+bold {
+  font-weight: 800;
+}
+.course_wraper .course_html .radio_wraper .far {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: #f8524f;
+}
+.course_wraper .course_html .answ_error {
+  position: relative;
+  padding: 20px 10px;
+  background: #f8524f;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #212121;
+}
+.course_wraper .course_html .answ_error i {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 21px;
+}
+.course_wraper .course_html .answ_error p {
+  position: relative;
+  left: 10%;
+}
+.course_wraper .course_html .first-input,
+.course_wraper .course_html .second-input {
+  padding: 2px 10px;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.course_wraper .course_html .intro {
+  position: relative;
+  margin: 20px 0px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.course_wraper .course_html .intro .intro_text {
+  position: relative;
+  left: 20%;
+}
+.course_wraper .course_html .intro .intro_text p {
+  max-width: 450px;
+}
+.course_wraper .course_html .intro span {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  padding: 25px 10px;
+  border-radius: 50%;
+  background: #f8524f;
+  font-weight: 800;
+}
+.course_wraper .course_html .lesson {
+  position: relative;
+  background: #f6918e;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.course_wraper .course_html .lesson .lessons .quizze .fa-check {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #f8524f;
+  font-size: 21px;
+}
+.course_wraper .course_html .lesson .lessons .quizze:hover .fa-check {
+  color: #212121;
+}
+.course_wraper .course_html .lesson span {
+  position: absolute;
+  right: 15%;
+}
+.course_wraper .course_html .lesson .lesson_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+}
+.course_wraper .course_html .lesson .lesson_top .fa-code,
+.course_wraper .course_html .lesson .lesson_top .fa-bootstrap {
+  background: #f8524f;
+  border-radius: 50%;
+  padding: 10px;
+  pointer-events: none;
+}
+.course_wraper .course_html .lesson .lesson_top h3 {
+  pointer-events: none;
+}
+.course_wraper .course_html .lesson .lesson_top .fa-chevron-up,
+.course_wraper .course_html .lesson .lesson_top .fa-chevron-down {
+  color: #f8524f;
+  padding: 10px;
+  pointer-events: none;
+}
+.course_wraper .course_html .lesson .lessons {
+  position: relative;
+  margin: 0px 80px;
+  padding-bottom: 10px;
+}
+.course_wraper .course_html .lesson .lessons .quizze {
+  position: relative;
+  margin-bottom: 20px;
+  border: 2px solid #424242;
+  padding: 10px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.course_wraper .course_html .lesson .lessons .quizze:hover {
+  border: 2px solid #f8524f;
+  background: #ffd2c2;
+}
+.lesson_height {
+  max-height: 75px;
+}
+.lessons_visible {
+  visibility: hidden;
+  opacity: 0;
+}
